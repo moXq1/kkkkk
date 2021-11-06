@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./script.js"></script>
+    <title>Doob</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href='#' class="logo">
+        <img src="./assets/Logo.png" alt="Doob logo" />
+      </a>
+      <nav class="navigation">
+        <ul class="navigation__left">
+          <li class="navigation__close"><span></span><span></span></li>
+          <li>
+            <a href="#" class="navigation__link navigation__goto">Home.</a>
+          </li>
+          <li>
+            <a href="#" class="navigation__link navigation__goto">About us.</a>
+          </li>
+          <li>
+            <a href="#" class="navigation__link navigation__goto">
+              Portfolio.</a
+            >
+          </li>
+          <li>
+            <a href="#" class="navigation__link navigation__goto">Blog.</a>
+          </li>
+          <li>
+            <a href="#contact" class="navigation__link navigation__goto"
+              >Contact us.</a
+            >
+          </li>
+        </ul>
+
+        <div class="navigation__right">
+          <div class="navigation__lang">
+            EN <img src="./assets/Arrow Down.svg" alt="" />
+          </div>
+          <a href="#" class="navigation__btn navigation__goto">
+            Contact us
+            <img src="./assets/Arrow.svg" />
+          </a>
+        </div>
+      </nav>
+      <div class="navigation__hamburger">
+        <div class="navigation__hamb-box">
+          <div class="navigation__hamb-inner"></div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="hero__content">
+          <h1 class="hero__title">The Spirit of </br> Digital Agency</h1>
+          <p class="hero__text">
+            Vestibulum ac diam sit amet quam vehicula elementum amet est on dui.
+            Nulla porttitor accumsan tincidunt.
+          </p>
+          <div class="hero__btns">
+            <button class="hero__btn hero__btn--active">More About us</button>
+            <button class="hero__btn">Get in touch.</button>
+          </div>
+        </div>
+        <div class="hero__wrap">
+          <div class="hero__slider">
+            <div class="hero__slider-line">
+              <div class="hero__slide">
+                <img
+                  class="hero__img"
+                  src="./assets/Vector Illustration.png"
+                  alt=""
+                />
+              </div>
+              <div class="hero__slide">
+                <img
+                  class="hero__img"
+                  src="./assets/Vector Illustration.png"
+                  alt=""
+                />
+              </div>
+              <div class="hero__slide">
+                <img
+                  class="hero__img"
+                  src="./assets/Vector Illustration.png"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <button class="hero__prev">&#10094;</button>
+            <button class="hero__next">&#10095;</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio">
+        <h2 class="portfolio__title">See some of our </br> Creative work.</h2>
+        <ul class="portfolio__grid">
+          <li><a href="" class="portfolio__item"></a></li>
+          <li><a href="" class="portfolio__item"></a></li>
+          <li><a href="" class="portfolio__item"></a></li>
+          <li><a href="" class="portfolio__item"></a></li>
+          <li><a href="" class="portfolio__item"></a></li>
+          <li><a href="" class="portfolio__item"></a></li>
+        </ul>
+        <a href="#" class="portfolio__more"> See More of These. </a>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="contact__wrp">
+          <div class="contact__pretitle">contact us</div>
+          <h2 class="contact__title">Get in Touch</h2>
+        </div>
+        <form class="contact__form">
+          <input class="contact__email" type="email" placeholder="Your Email" />
+          <input class="contact__subject" type="text" placeholder="Subject" />
+          <textarea
+            class="contact__message"
+            rows="5"
+            placeholder="Message here..."
+          ></textarea>
+
+          <input class="contact__submit" type="submit" value="Send Message" />
+        </form>
+      </section>
+
+      <footer class="footer">
+        <div class="footer__wrap">
+          <div class="footer__name">doob</div>
+          <h2 class="footer__title">creativity above</h2>
+          <ul class="footer__list">
+            <li><a href="" class="footer__link">Home.</a></li>
+            <li><a href="" class="footer__link">About us.</a></li>
+            <li><a href="" class="footer__link">Portfolio.</a></li>
+            <li><a href="" class="footer__link">Blog.</a></li>
+            <li><a href="" class="footer__link">Contact us.</a></li>
+          </ul>
+
+          <div class="footer__copyright">@ 2019 - Goob.All Right Reserved</div>
+          <div class="footer__socials">
+            <a class="footer__soc" href="https://www.facebook.com/">
+              <img src="./assets/Facebook.svg" alt="Facebook"
+            /></a>
+            <a class="footer__soc" href="https://www.twitter.com/"
+              ><img src="./assets/Twitter.svg" alt="Twitter"
+            /></a>
+            <a class="footer__soc" href="https://www.dribbble.com/">
+              <img
+                class="dribbble"
+                src="./assets/logo-dribbble.svg"
+                alt="Dribble"
+              />
+            </a>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 6" width="8" height="6">
+	<title>Hero</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #314584 } 
+	</style>
+	<g id="Hero">
+		<g id="Navbar">
+			<g id="Right Nav">
+				<path id="Arrow Down" class="shp0" d="M4.29 5.29L0.55 0.05L8.02 0.05L4.29 5.29Z" />
+			</g>
+		</g>
+	</g>
+</svg>
