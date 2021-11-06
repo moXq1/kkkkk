@@ -60,6 +60,13 @@ function navigationToggler() {
 
   function toggleNav() {
     navigation.classList.toggle("navigation--show")
+    if (navigation.classList.contains("navigation--show")) {
+      document.body.style.overflow = "hidden"
+      navigation.style.overflowY = "scroll"
+    } else {
+      document.body.style.overflow = ""
+      navigation.style.overflowY = ""
+    }
   }
 }
 
